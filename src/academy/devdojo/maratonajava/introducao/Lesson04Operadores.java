@@ -36,5 +36,13 @@ public class Lesson04Operadores {
 
         // ! (not)
 
+        // Atribuição;
+        // +=, -=, *=, /=, %=
+        double bonus = 1800;
+        bonus += 1000;
+        bonus++; // atribui +1 de valor na variavel
+        bonus--;
+        System.out.println(bonus);
+
     }
 }
