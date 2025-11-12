@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.introducao;
 public class Lesson05EstruturasCondicionaisSwitch03 {
     public static void main(String[] args){
         // Imprima o dia da semana, considerando 1 como domingo
-        int dia = 5;
+        int dia = 50;
         // String, int, char, byte, short, enum
         switch (dia){
             case 1:
@@ -27,6 +27,8 @@ public class Lesson05EstruturasCondicionaisSwitch03 {
             case 7:
                 System.out.println("Domingo");
                 break;
+            default:
+                System.out.println("Opção Invalida!");
         }
     }
 }
