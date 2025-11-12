@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class lesson07Arrays {
+public class Lesson07Arrays {
     public static void main(String[] args) {
         int [] idades = new int[3];
 
