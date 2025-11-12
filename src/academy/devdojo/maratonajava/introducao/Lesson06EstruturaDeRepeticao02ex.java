@@ -8,8 +8,6 @@ public class Lesson06EstruturaDeRepeticao02ex {
 
             if (isPar && i <=25){
                 System.out.println("xx "+i+" xx");
-            } else {
-                System.out.println(i);
             }
 
         }
