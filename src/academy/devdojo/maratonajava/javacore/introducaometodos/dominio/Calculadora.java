@@ -27,7 +27,6 @@ public class Calculadora {
 
     public double divideDoisNumeros(double num1, double num2){
         if (num1 == 0 || num2 == 0){
-            System.out.println("Não existe divisão por ZERO!");
             return 0;
         }
         return num1 / num2;
