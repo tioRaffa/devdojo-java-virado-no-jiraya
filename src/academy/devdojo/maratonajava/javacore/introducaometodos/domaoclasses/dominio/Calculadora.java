@@ -13,4 +13,15 @@ public class Calculadora {
             System.out.println("2 x "+i+" = "+total);
         }
     }
+    public void subtraiDoisNumeros(int num1, int num2){
+        int subtracao = num1 - num2;
+        System.out.println(subtracao);
+    }
+    public void tabuada(int num1){
+        for (int i = 1; i <= 10; i++) {
+            int total = num1 * i;
+            System.out.println(num1+" x "+i+" = "+total);
+
+        }
+    }
 }
