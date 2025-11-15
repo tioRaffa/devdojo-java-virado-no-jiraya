@@ -38,4 +38,23 @@ public class Calculadora {
 
         System.out.println(number1+" "+number2);
     }
+
+    // AULA 52
+    public void somaArray(int[] numbers){
+        int total = 0;
+        for (int num : numbers){
+            System.out.println(num+" + "+total+" = "+(total+num));
+            total += num;
+        }
+
+    }
+    public void somaVarArgs(int... numbers){
+        int total = 0;
+        for (int num : numbers){
+            System.out.println(num+" + "+total+" = "+(total+num));
+            total += num;
+        }
+    }
+    // ---------------------------------------- 52
+
 }
