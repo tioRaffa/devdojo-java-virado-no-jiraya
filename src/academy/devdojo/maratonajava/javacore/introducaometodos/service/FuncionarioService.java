@@ -4,18 +4,18 @@ import academy.devdojo.maratonajava.javacore.introducaometodos.dominio.Funcionar
 
 public class FuncionarioService {
     public void imprimeFuncionario(Funcionario funcionario){
-        if (funcionario.name == null || funcionario.age <= 0 || funcionario.salary == null){
+        if (funcionario.getName() == null || funcionario.getAge() <= 0 || funcionario.getSalary() == null){
             return;
         }
 
-        System.out.println("Nome: "+funcionario.name+", Idade: "+funcionario.age);
+        System.out.println("Nome: "+funcionario.getName()+", Idade: "+funcionario.getAge());
 
-        for (int i = 0; i < funcionario.salary.length; i++) {
+        int[] salary = funcionario.getSalary();
+        for (int i = 0; i < 3; i++) {
             int count = i + 1;
-            System.out.println("Salario "+count+" R$"+funcionario.salary[i]);
+            System.out.println("Salario "+count+" R$"+salary[i]);
         }
     }
-
 
     public void mediaSalarial(int... salarios){
         if (salarios == null){
@@ -28,6 +28,7 @@ public class FuncionarioService {
         }
         int media = soma / salarios.length;
         System.out.println("Média Salarial = R$"+media);
+
 
     }
 }
