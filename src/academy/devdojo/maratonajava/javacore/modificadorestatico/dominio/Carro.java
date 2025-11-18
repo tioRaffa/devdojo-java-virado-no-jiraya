@@ -13,6 +13,7 @@ public class Carro {
         this.velocidadeMax = velocidadeMax;
     }
 
+    // Metodo Static
     public static void setVelocidadeLimite(int velocidadeLimite){
         Carro.velocidadeLimite = velocidadeLimite;
     }
