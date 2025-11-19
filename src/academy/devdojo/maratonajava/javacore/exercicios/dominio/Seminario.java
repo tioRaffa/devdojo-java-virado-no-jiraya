@@ -44,7 +44,8 @@ public class Seminario {
         if (this.estudantes != null){
             for (Estudante estudante : this.estudantes){
                 System.out.println(
-                        "Nome Estudante: " + estudante.getNome()
+                        "Nome Estudante: " + estudante.getNome() +
+                        ", Idade Estudante: " + estudante.getIdade()
                 );
             }
         }
