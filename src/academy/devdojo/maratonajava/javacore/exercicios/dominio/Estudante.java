@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava.javacore.exercicios.dominio;
 
-import academy.devdojo.maratonajava.javacore.introducaometodos.service.EstudanteService;
-
 public class Estudante {
     private String nome;
     private int idade;
