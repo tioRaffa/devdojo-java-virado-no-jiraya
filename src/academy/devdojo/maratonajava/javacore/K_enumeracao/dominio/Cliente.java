@@ -3,10 +3,12 @@ package academy.devdojo.maratonajava.javacore.K_enumeracao.dominio;
 public class Cliente {
     private String nome;
     private String tipo;
+    private TipoCliente tipoCliente;
 
-    public Cliente(String nome, String tipo){
+
+    public Cliente(String nome, TipoCliente tipoCliente) {
         this.nome = nome;
-        this.tipo = tipo;
+        this.tipoCliente = tipoCliente;
     }
 
     public String getNome() {
@@ -16,10 +18,17 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getTipo() {
-        return tipo;
+    public TipoCliente getTipoCliente() {
+        return tipoCliente;
     }
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setTipoCliente(TipoCliente tipoCliente) {
+        this.tipoCliente = tipoCliente;
     }
-} 
+
+    public void imprime(){
+        System.out.println(
+                "Nome: " + getNome()+
+                ", Tipo Cliente: " + getTipoCliente()
+        );
+    }
+}
