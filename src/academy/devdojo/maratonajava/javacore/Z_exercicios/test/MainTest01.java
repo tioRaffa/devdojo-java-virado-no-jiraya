@@ -1,9 +1,9 @@
-package academy.devdojo.maratonajava.javacore.exercicios.test;
+package academy.devdojo.maratonajava.javacore.Z_exercicios.test;
 
-import academy.devdojo.maratonajava.javacore.exercicios.dominio.Estudante;
-import academy.devdojo.maratonajava.javacore.exercicios.dominio.Local;
-import academy.devdojo.maratonajava.javacore.exercicios.dominio.Professor;
-import academy.devdojo.maratonajava.javacore.exercicios.dominio.Seminario;
+import academy.devdojo.maratonajava.javacore.Z_exercicios.dominio.Estudante;
+import academy.devdojo.maratonajava.javacore.Z_exercicios.dominio.Local;
+import academy.devdojo.maratonajava.javacore.Z_exercicios.dominio.Professor;
+import academy.devdojo.maratonajava.javacore.Z_exercicios.dominio.Seminario;
 
 public class MainTest01 {
     public static void main(String[] args) {
