@@ -15,9 +15,10 @@ public class Carro {
     public void imprime(){
         System.out.println(
                 "Model: " + this.modelo +
-                ", Velocidade Limite: " + Carro.VELOCIDADE_LIMITE+
-                " // Comprador: " + this.COMPRADOR.getNome()
+                ", Velocidade Limite: " + Carro.VELOCIDADE_LIMITE
         );
+        if (this.COMPRADOR != null){
+            System.out.println("Comprador: " + this.COMPRADOR.getNome());
+        }
     }
-
 }
