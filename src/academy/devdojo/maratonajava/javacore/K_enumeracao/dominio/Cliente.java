@@ -2,7 +2,6 @@ package academy.devdojo.maratonajava.javacore.K_enumeracao.dominio;
 
 public class Cliente {
     private String nome;
-    private String tipo;
     private TipoCliente tipoCliente;
 
 
